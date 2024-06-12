@@ -1,5 +1,6 @@
 # Arduino-Joystick ![arduinoThumb](https://github.com/ICAREMAKER/Arduino-Joystick/assets/107696317/67612c61-e604-421f-aad0-09c4682e8026) ![C++-Logo wine](https://github.com/ICAREMAKER/Arduino-Joystick/assets/107696317/26bac965-a9c8-4bb2-8c40-aaca1e19b7a5)
 
+![arduino-joystick](https://github.com/ICAREMAKER/Arduino-Joystick/assets/107696317/2746aea8-fc4c-4911-af78-6b3a5a4b50cb)
 
 
 ## Code
@@ -16,8 +17,8 @@ void setup() {
 
 void loop() {
   // Lire les valeurs analogiques X et Y 
-  xValue = analogRead(JoyX_PIN);
-  yValue = analogRead(JoyY_PIN);
+  ValeurX = analogRead(JoyX_PIN);
+  ValeurY = analogRead(JoyY_PIN);
 
   // Lire les valeurs sur le moniteur serie
   Serial.print("x = ");
